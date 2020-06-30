@@ -1,0 +1,70 @@
+html {
+    overflow-y: scroll;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+  
+  th {
+    width: 14%;
+    cursor: pointer;
+  }
+  
+  th:hover {
+    background-color: #fdf893;
+  }
+  
+  .currency-value:hover {
+    background-color: #fdf893 !important;
+  }
+  
+  .thead-flash-once {
+    -webkit-animation: thead-flash-once 0.4s ease-in-out 2; /* Safari 4+ */
+    -moz-animation: thead-flash-once 0.4s ease-in-out 2; /* Fx 5+ */
+    -o-animation: thead-flash-once 0.4s ease-in-out 2; /* Opera 12+ */
+    animation: thead-flash-once 0.4s ease-in-out 2; /* IE 10+, Fx 29+ */
+  }
+  
+  @keyframes thead-flash-once {
+    0% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: #fdf893;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+  
+  /* Very basic media queries */
+  @media (max-width: 1200px) {
+  
+    table {
+      font-size: 12px;
+      overflow: hidden;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    table {
+      font-size: 8px;
+    }
+    .dev-signature {
+      justify-content: flex-start !important;
+    }
+  }
+
+
+  

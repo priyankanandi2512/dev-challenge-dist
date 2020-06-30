@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="stomp.js"></script>
+    <script src="sparkline.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5 mb-3">
+            <div class="col-md-6">
+                <div class="page-header">
+                    <h1>Currency Pairs</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-sm mt-5">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                Name &nbsp;
+                            </th>
+                            <th scope="col">
+                                Best Bid Price &nbsp;
+                            </th>
+                            <th scope="col">
+                                Best Ask Price &nbsp;
+                            </th>
+                            <th scope="col">
+                                Open Bid &nbsp;
+                            </th>
+                            <th scope="col">
+                                Open Ask &nbsp;
+                            </th>
+                            <th scope="col">
+                                Updated Bid &nbsp;
+                            </th>
+                            <th scope="col">
+                                Updated Ask &nbsp;
+                            </th>
+                            <th scope="col">
+                                Mid Price &nbsp;
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Code you write in index.js and anything it depends on will be bundled into bundle.js and
+     is included here -->
+    <script src="bundle.js"></script>
+</body>
+
+</html>
